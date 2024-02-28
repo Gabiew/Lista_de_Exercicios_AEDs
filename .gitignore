@@ -1,3 +1,4 @@
+Linguagem C
 #include <stdio.h>
 int main (void) {
  float nota;
@@ -12,3 +13,18 @@ scanf("%f", &nota);
  }
  return 0;
 }
+
+Portugol//Pseudocódigo
+algoritmo "joão_Nota"
+var
+ nota: real
+inicio
+ escreva("Digite a nota de João: ")
+    leia(nota)
+
+    se nota >= 10 então
+        escreva("Aprovado")
+    senão
+        escreva("Reprovado")
+    fimse
+fimalgoritmo
