@@ -1,4 +1,5 @@
 Linguagem C
+
 #include <stdio.h>
 int main (void) {
  float nota;
@@ -15,6 +16,7 @@ scanf("%f", &nota);
 }
 
 Portugol//Pseudocódigo
+
 algoritmo "joão_Nota"
 var
  nota: real
