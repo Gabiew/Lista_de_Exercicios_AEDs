@@ -1,0 +1,19 @@
+Linguagem c
+#include <stdio.h>
+int main (void) {
+  int n1;
+  float n2;
+  int R;
+
+  printf ("Digite um número inteiro: ");
+  scanf ("%d", &n1);
+
+  printf ("Digite um número real: ");
+  scanf ("%f", &n2);
+
+   R = n2 + (int)n1;
+  
+  printf ("soma = %d\n", R);
+
+return 0;
+}
